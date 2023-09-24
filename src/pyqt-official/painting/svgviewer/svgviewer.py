@@ -293,6 +293,6 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         window.openFile(sys.argv[1])
     else:
-        window.openFile(':/files/bubbles.svg')
+        window.openFile('./files/bubbles.svg')
     window.show()
     sys.exit(app.exec_())
